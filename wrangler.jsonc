@@ -1,5 +1,5 @@
 {
-  "name": "my-netdisk",
+  "name": "dash",
   "main": "worker.js",
   "compatibility_date": "2026-04-25",
   "kv_namespaces": [
