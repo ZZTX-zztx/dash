@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的网盘</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="auth-page">
+    <h2>登录 / 注册</h2>
+    <input type="text" id="username" placeholder="输入账号">
+    <input type="password" id="password" placeholder="输入密码">
+    <button onclick="login()">登录</button>
+    <button onclick="register()">注册</button>
+  </div>
+
+  <div id="disk-page" class="hidden">
+    <h2>欢迎，<span id="user-name"></span></h2>
+    <input type="file" id="file-input">
+    <button onclick="uploadFile()">上传文件</button>
+    <h3>我的文件</h3>
+    <div id="file-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
