@@ -1,0 +1,18 @@
+{
+  "name": "my-netdisk",
+  "main": "worker.js",
+  "compatibility_date": "2026-04-25",
+  "kv_namespaces": [
+    {
+      "binding": "USER_KV",
+      "id": "51d1307e3b2d4418b1b5c0c2104d0c5f",
+      "preview_id": "51d1307e3b2d4418b1b5c0c2104d0c5f"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "dash_d1",
+      "database_id": "89d46655-8e56-41d1-b976-8f9dbe4a1630"
+    }
+  ]
+}
